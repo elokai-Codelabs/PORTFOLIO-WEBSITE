@@ -304,11 +304,12 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 100px;
   height: 3px;
   background: #149ddd;
   bottom: 0;
-  left: 0;
+  left: 45%;
+  margin: 0 auto;
 }
 
 .section-title p {
@@ -423,7 +424,7 @@ section {
 
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
+  height: 7px;
   transition: 0.9s;
   background-color: #149ddd;
 }
